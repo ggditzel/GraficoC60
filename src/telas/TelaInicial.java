@@ -13,6 +13,7 @@ import javax.swing.SwingConstants;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import negocio.Controle;
+import negocio.Main;
 
 public class TelaInicial {
 
@@ -21,6 +22,7 @@ public class TelaInicial {
 	private JLabel lblArquivo;
 	private JLabel lblAutor;
 	private JLabel lblTitulo;
+	private JLabel lblVersao;
 
 	public TelaInicial(Controle meuChefe) {
 		this.meuChefe = meuChefe;
@@ -33,7 +35,7 @@ public class TelaInicial {
 	private void initialize() {
 		framePrincipal = new JFrame();
 		framePrincipal.setTitle("Visualizador/Conversor C60");
-		framePrincipal.setBounds(100, 100, 300, 300);
+		framePrincipal.setBounds(100, 100, 300, 320);
 		framePrincipal.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		framePrincipal.setVisible(true);
 		
@@ -105,6 +107,12 @@ public class TelaInicial {
 		lblAutor.setEnabled(true);
 		lblAutor.setBounds(05, 206, 290, 28);
 		framePrincipal.getContentPane().add(lblAutor);
+		
+		lblVersao = new JLabel(Main.versao);
+		lblVersao.setHorizontalAlignment(SwingConstants.CENTER);
+		lblVersao.setEnabled(false);
+		lblVersao.setBounds(64, 246, 150, 14);
+		framePrincipal.getContentPane().add(lblVersao);
 		
 		framePrincipal.repaint();
 	}

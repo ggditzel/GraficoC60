@@ -1,8 +1,16 @@
+/*
+ * Programa "as is", feito sem muito critério e planejamento,
+ * conforme algumas necessidades foram surgindo.
+ * 
+ */
+
 package negocio;
 
 import javax.swing.UIManager;
 
 public class Main {
+	
+	public static final String versao = "Versão 1.0";
 
 	public static void main(String[] args) throws Exception {
 
