@@ -2,6 +2,8 @@
  * Programa "as is", feito sem muito critério e planejamento,
  * conforme algumas necessidades foram surgindo.
  * 
+ * Autor: gustavo.ditzel@eletrosul.gov.br
+ * 
  */
 
 package negocio;
