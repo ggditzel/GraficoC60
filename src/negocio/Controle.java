@@ -176,7 +176,7 @@ public class Controle {
 		boolean ok = false;
 		if (arquivoOrigem != null) {
 			if (retornaFormato(arquivoOrigem).equals("c60")) {
-				System.out.println("reconheceu c60");
+				//System.out.println("reconheceu c60");
 				return ok = converteC60();
 			} else if (retornaFormato(arquivoOrigem).equals("csv")){
 				tela.mostraErro("Este arquivo já está no formato CSV.");
