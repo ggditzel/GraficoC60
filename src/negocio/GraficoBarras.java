@@ -1,14 +1,14 @@
 package negocio;
 
-import java.awt.Dimension;
-import java.util.ArrayList;
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
+
+import java.awt.*;
+import java.util.ArrayList;
 
 public class GraficoBarras {
 	

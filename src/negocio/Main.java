@@ -12,7 +12,7 @@ import javax.swing.UIManager;
 
 public class Main {
 	
-	public static final String versao = "Versão 1.0.1"; // retirou um print que nao precisava
+	public static final String versao = "Versão 1.0.2"; // atualizado o email
 
 	public static void main(String[] args) throws Exception {
 

@@ -102,7 +102,7 @@ public class TelaInicial {
 		lblArquivo.setBounds(64, 100, 150, 14);
 		framePrincipal.getContentPane().add(lblArquivo);
 		
-		lblAutor = new JLabel("<html>Autor: Gustavo G. Ditzel<br/>email: gustavo.ditzel@eletrosul.gov.br</html>");
+		lblAutor = new JLabel("<html>Autor: Gustavo G. Ditzel<br/>email: gustavo.ditzel@cgteletrosul.com.br</html>");
 		lblAutor.setHorizontalAlignment(SwingConstants.CENTER);
 		lblAutor.setEnabled(true);
 		lblAutor.setBounds(05, 206, 290, 28);
